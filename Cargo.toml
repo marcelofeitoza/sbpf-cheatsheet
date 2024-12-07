@@ -1,0 +1,13 @@
+[package]
+name = "sbpf-cheatsheet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+mollusk-svm = "0.0.12"
+solana-sdk = "2.1.0"
+
+[features]
+test-sbf = []
