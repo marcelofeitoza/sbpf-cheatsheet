@@ -1,6 +1,6 @@
 # sBPF Cheatsheet
 
-**sBPF Cheatsheet** is a comprehensive reference repository for sBPF (Solana Berkeley Packet Filter) assembly programming. Designed primarily for use with the [`sbpf`](https://github.com/deanmlittle/sbpf) tool, this repository serves as both a learning resource and a practical guide for developers working with sBPF on the Solana blockchain.
+**sBPF Cheatsheet** is a comprehensive reference repository for sBPF (Solana Berkeley Packet Filter) assembly programming. Designed primarily for use with the [`sbpf`](https://github.com/blueshift-gg/sbpf) tool, this repository serves as both a learning resource and a practical guide for developers working with sBPF on the Solana blockchain.
 
 ## Table of Contents
 
@@ -41,9 +41,9 @@ Before diving into the sBPF assembly programs, ensure you have the following too
 
 3. **`sbpf` Tool:** The sBPF assembler and linker used to build assembly programs.
 
-   - Install from the [sbpf GitHub repository](https://github.com/deanmlittle/sbpf):
+   - Install from the [sbpf GitHub repository](https://github.com/blueshift-gg/sbpf):
      ```sh
-     cargo install --git https://github.com/deanmlittle/sbpf.git
+     cargo install --git https://github.com/blueshift-gg/sbpf.git
      ```
 
 ## Repository Structure
