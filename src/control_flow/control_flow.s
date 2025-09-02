@@ -29,7 +29,7 @@ entrypoint:
     // Emulating 'jset' (Jump if Bitwise AND Result is Non-zero)
     // -------------------------
     mov64 r3, r2       // Move the value from r2 into r3 (r3 = 20)
-    and64 r3, 0x10     // Perform bitwise AND between r3 and 0x10 (r3 = r3 & 0x10)
+    and64 r3, 16       // Perform bitwise AND between r3 and 16 (r3 = r3 & 16)
     jne r3, 0, log     // Jump to 'log' if the result of the AND is not zero
 
     // -------------------------
@@ -63,7 +63,5 @@ done:
     // Read-only Data Section
     // -------------------------
 .rodata
-    .balign 8
     log_message: .ascii "jumped to log"     // Define the log message string
-    .balign 8
     done_message: .ascii "Control flow done" // Define the done message string

@@ -44,7 +44,7 @@ entrypoint:
     // Bitwise Operations (64-bit)
     // -------------------------
     or64 r2, r3         // Perform bitwise OR between r2 (10) and r3 (20), result in r2 (30)
-    lddw r4, 0xF        // Load the immediate value 0xF (15) into register r4
+    lddw r4, 15         // Load the immediate value 15 into register r4
     and64 r2, r4        // Perform bitwise AND between r2 (30) and r4 (15), result in r2 (14)
     xor64 r3, r2        // Perform bitwise XOR between r3 (20) and r2 (14), result in r3 (26)
 
